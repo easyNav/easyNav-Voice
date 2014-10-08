@@ -1,0 +1,664 @@
+INFO:root:Starting to retrieve locations
+INFO:root:Starting to retrieve locations
+INFO:root:Starting to retrieve locations
+INFO:root:Starting to retrieve locations
+INFO:root:Starting to retrieve locations
+INFO:root:Starting to retrieve locations
+INFO:root:Starting to retrieve locations
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node HTTP/1.1" 200 6878
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1936
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
+INFO:root:Starting to retrieve locations
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): 192.249.57.162
+DEBUG:requests.packages.urllib3.connectionpool:"GET /node/summary HTTP/1.1" 200 1998
