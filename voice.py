@@ -31,7 +31,7 @@ class Voice(object):
         #     from client.mic import Mic
 
         # Change CWD to $JASPER_HOME/jasper/client
-        client_path = os.path.join(os.getenv("VOICE"), "VOICE", "client")
+        client_path = os.path.join(os.getenv("VOICE"), "easyNav-Voice", "client")
         os.chdir(client_path)
         # Add $JASPER_HOME/jasper/client to sys.path
         sys.path.append(client_path)
