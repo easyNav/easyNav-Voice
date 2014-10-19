@@ -43,8 +43,7 @@ class Voice(object):
         self.dispatcherClient = DispatcherClient(port=self.DISPATCHER_PORT)
 
         ## Attach event listeners
-        self.attachEvents(self.speaker)
-
+        # self.attachEvents(self.speaker)
 
     def start(self):
 
@@ -129,19 +128,19 @@ class Voice(object):
         conversation = Conversation("EASYNAV", mic, profile, self.dispatcherClient)
         conversation.handleForever()
 
-    def attachEvents(self, mic):
-        ## clear all signals
-        smokesignal.clear()
-        text = ""
-        @smokesignal.on('say')
-        def onSay(args):
-            print "Info from Nav"
-            infoFromNav = eval(args.get('payload'))
-            print infoFromNav
-            infotosay = infoFromNav["text"]
-            print infotosay
-            print "Info from Nav before Mic"
-            mic.say(infotosay)
+    # def attachEvents(self, mic):
+    #     ## clear all signals
+    #     smokesignal.clear()
+    #     text = ""
+    #     @smokesignal.on('say')
+    #     def onSay(args):
+    #         print "Info from Nav"
+    #         infoFromNav = eval(args.get('payload'))
+    #         print infoFromNav
+    #         infotosay = infoFromNav["text"]
+    #         print infotosay
+    #         print "Info from Nav before Mic"
+    #         mic.say(infotosay)
 
 
 def runMain():
