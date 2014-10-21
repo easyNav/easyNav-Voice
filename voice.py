@@ -10,6 +10,7 @@ from client import vocabcompiler, stt
 from client import speaker 
 from client.conversation import Conversation
 from client.mic import Mic
+from client import GetLocations
 
 #for interprocess communication
 import smokesignal
@@ -127,6 +128,7 @@ class Voice(object):
 
         conversation = Conversation("EASYNAV", mic, profile, self.dispatcherClient)
         conversation.handleForever()
+        GetLocations.getLoc()
 
     # def attachEvents(self, mic):
     #     ## clear all signals
