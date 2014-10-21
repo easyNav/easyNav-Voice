@@ -185,6 +185,7 @@ def handle(text, mic, profile, dispatcherClient):
 		mic.say(strToSay)
 		time.sleep(0.2)
 		mic.say("Choose where you want to go to from the list below")
+		srcSUID = getSUID(index)
 		cancel, endLocation, index = getInput(mic)
 		print endLocation
 	
@@ -194,10 +195,10 @@ def handle(text, mic, profile, dispatcherClient):
 			strToSay = endLocation +" found"
 			mic.say(strToSay)
 			mic.say("Routing to location.......Please wait......")
-			SUID = getSUID(index)
-			print SUID
+			destSUID = getSUID(index)
+			print destSUID
 			#interprocess
-			dispatcherClient.send(9001, "newPath", {"to": SUID})
+			dispatcherClient.send(9001, "newPath", {"from":srcSUID, "to": destSUID})
 
 #called by jasper client
 def isValid(text):

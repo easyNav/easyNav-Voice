@@ -126,9 +126,10 @@ class Voice(object):
 
         self.dispatcherClient.start()
 
+        #GetLocations.getLoc()
         conversation = Conversation("EASYNAV", mic, profile, self.dispatcherClient)
         conversation.handleForever()
-        GetLocations.getLoc()
+        
 
     # def attachEvents(self, mic):
     #     ## clear all signals
