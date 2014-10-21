@@ -23,10 +23,10 @@ class Notifications(object):
 
 	def attachEvents(self, mic):
         ## clear all signals
-        smokesignal.clear()
+		smokesignal.clear()
         text = ""
         @smokesignal.on('say')
-		def onSay(args):
+        def onSay(args):
 			print "Info from Nav"
 			infoFromNav = eval(args.get('payload'))
 			print infoFromNav
@@ -34,7 +34,6 @@ class Notifications(object):
 			print infotosay
 			print "Info from Nav before Mic"
 			mic.say(infotosay)
-
 
 
 def runMain():

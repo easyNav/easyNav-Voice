@@ -47,7 +47,7 @@ def compile(sentences, dictionary, languagemodel):
             Gets the words and creates the dictionary
     """
     m = [os.path.basename(f)[:-3]
-         for f in glob.glob(os.path.dirname("/home/pi/jasper/client/modules/") + "/*.py")]
+         for f in glob.glob(os.path.dirname("/home/pi/repos/easyNav-Voice/client/modules/") + "/*.py")]
 
     words = []
     for module_name in m:
