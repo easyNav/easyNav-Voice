@@ -185,8 +185,8 @@ def handle(text, mic, profile, dispatcherClient):
 		mic.say(strToSay)
 		time.sleep(0.2)
 		mic.say("Choose where you want to go to from the list below")
-		srcSUID = getSUID(index)
 		cancel, endLocation, index = getInput(mic)
+        srcSUID = getSUID(index)
 		print endLocation
 	
 		if cancel:
