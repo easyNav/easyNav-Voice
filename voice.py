@@ -102,7 +102,7 @@ class Voice(object):
 
         self.speaker.say("Hello.... I am EASYNAV... Please wait one moment while I configure.")
 
-        configure()
+        #configure()
         
         profile = yaml.safe_load(open("profile.yml", "r"))
 

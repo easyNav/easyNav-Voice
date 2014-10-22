@@ -5,69 +5,9 @@ from num2words import num2words
 import time
 
 
-WORDS = ["FIND"]
+WORDS = ["MAP"]
 ONGOING_NAVIGATION = 0
 
-
-def prompt(chunkNumber, MaxChunkSize, locations, mic):
-	#TODO: get rid of magic number
-	idxMax = chunkNumber * 5
-	idxStart = idxMax - 5
-
-	if idxMax > len(locations):
-		idxStop = len(locations) - 1
-	else:
-		idxStop = idxMax - 1 
-
-	ctr = 1
-	strToSay = "Please say...."
-	while (idxStart <= idxStop):
-		strToSay += str(num2words(ctr))
-		strToSay += "...for...."
-		strToSay += locations[idxStart]
-		mic.say(strToSay)
-		ctr+=1
-		idxStart+=1
-		time.sleep(0.1)
-		strToSay = ""
-
-	if chunkNumber != MaxChunkSize:
-		mic.say("For more locations, say...more...")
-
-	if chunkNumber != 1:
-		mic.say("To go back to previous menu, please say...PREVIOUS...")
-
-	mic.say("To cancel, please say....CANCEL.....")
-
-
-
-def getLocations():
-	#get a list of locations
-	filename = "../static/locations.txt"
-	locationFile = open(filename, "r")
-	print "Opened file!!"
-
-	locations = []
-	for line in locationFile.readlines():
-		line = line.replace("\n", "")
-		locations.append(line)
-	print locations
-	return locations
-
-def getSUID(index):
-	filename = "../static/SUIDFile.txt"
-	SUIDFile = open(filename, "r")
-	ctr = 0
-	SUID = 0
-
-	for line in SUIDFile.readlines():
-		if ctr == index:
-			line = line.replace("\n", "")
-			SUID = int(line)
-
-		ctr+=1
-
-	return SUID
 
 def getInput(mic):
 
@@ -168,43 +108,22 @@ def getInput(mic):
 				index = idxChosen
 				valid = True
 			
-	return cancel, chosenLocation, index
+	return cancel, chosenLocation, index	
+
 
 
 #called by jasper client
 def handle(text, mic, profile, dispatcherClient):
 
-	mic.say("Choose your start point from the list below")	
+	#make network request and get possible buildings and maps
 
-	cancel, startLocation, index = getInput(mic);
-	srcSUID = getSUID(index)
+	mic.say("")	
 
-	print startLocation
-	if cancel:
-		mic.say("Cancelling operation......")
-	else:
-		strToSay =  startLocation + " found"
-		mic.say(strToSay)
-		time.sleep(0.2)
-		mic.say("Choose where you want to go to from the list below")
-		cancel, endLocation, index = getInput(mic)
-		print endLocation
-	
-		if cancel:
-			mic.say("Cancelling operation......")
-		else:
-			strToSay = endLocation +" found"
-			mic.say(strToSay)
-			mic.say("Routing to location.......Please wait......")
-			destSUID = getSUID(index)
-			print destSUID
-			#interprocess
-			dispatcherClient.send(9001, "newPath", {"from":srcSUID, "to": destSUID})
+
+
+
 
 #called by jasper client
 def isValid(text):
     return bool(re.search(r'\bfind|change\b', text, re.IGNORECASE)) # searches for to and from
-
-
-
 
