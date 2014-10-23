@@ -6,6 +6,8 @@ import time
 import requests
 import json
 
+from easyNav_pi_dispatcher import DispatcherClient
+
 
 class testNavInstructions(object):
     
@@ -13,60 +15,80 @@ class testNavInstructions(object):
         #interprocess
         self.apple=2
         self.endpoint="http://localhost:1337/"
+        #interprocess 
+        self.DISPATCHER_PORT = 9002
+        self.dispatcherClient = DispatcherClient(port=self.DISPATCHER_PORT)
+
 
     def start(self):
-    	#lt15 to seminar room 6
-		payload = { "x": 0, "y": 1260, "z": 0, "orientation": (0/180.0)*3.142 }
+
+    	self.dispatcherClient.start()
+    	dispatcherClient.send(9001, "newPath", {"from":1, "to": 2})    	#lt15 to P2
+		
+		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 		time.sleep(5)
 
+		#simulate orientation
+		ctr=0
+		for c in range(0,55):
+			ctr+=5
 
-		payload = { "x": 0, "y": 1260, "z": 0, "orientation": (270/180.0)*3.142 }
+			if(ctr > 270):
+				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
+				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+				time.sleep(5)
+				break
+			else:
+				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
+				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+				time.sleep(5)
+
+
+		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 		time.sleep(5)
 		ctr=0
         
         #simulate movement
-		for c in range(0,10):
-			ctr+=200
-			payload = { "x": ctr, "y": 1260, "z": 0, "orientation": (270/180.0)*3.142 }
+		for c in range(0,21):
+			ctr+=100
+			payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
 			print payload
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 			print r.json
 			time.sleep(5)
 
-
-			if ctr == 1400:
-				ctr+=100
-				payload = { "x": ctr, "y": 1260, "z": 0, "orientation": (270/180.0)*3.142 }
+			if ctr == 2100:
+				ctr+=52
+				payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
 				print payload
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 				print r.json
 				time.sleep(5)
 				break
 
+		# payload = { "x": 1420, "y": 1260, "z": 0, "orientation": (270/180.0)*3.142 }
+		# print payload
+		# r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# print r.json
+		# time.sleep(5)
 
-		payload = { "x": 1420, "y": 1260, "z": 0, "orientation": (270/180.0)*3.142 }
-		print payload
-		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		print r.json
-		time.sleep(5)
+		# ctr=270
+		# for c in range(0,7):
+		# 	ctr+=10
+		# 	payload = {"x": 1420, "y": 1260, "z": 0, "orientation": (ctr/180.0)*3.142 }
+		# 	print payload
+		# 	r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# 	print r.json
+		# 	time.sleep(5)
 
-		ctr=270
-		for c in range(0,7):
-			ctr+=10
-			payload = {"x": 1420, "y": 1260, "z": 0, "orientation": (ctr/180.0)*3.142 }
-			print payload
-			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-			print r.json
-			time.sleep(5)
-
-		ctr+=10
-		payload = {"x": 1420, "y": 1260, "z": 0, "orientation": (0/180.0)*3.142 }
-		print payload
-		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		print r.json
-		time.sleep(5)
+		# ctr+=10
+		# payload = {"x": 1420, "y": 1260, "z": 0, "orientation": (0/180.0)*3.142 }
+		# print payload
+		# r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# print r.json
+		# time.sleep(5)
 
 
 		# ctr=0
@@ -95,7 +117,6 @@ class testNavInstructions(object):
   #       		print r.json
   #       		time.sleep(5)
   #       		break
-
 
 def runMain():
 
