@@ -9,6 +9,47 @@ WORDS = ["MAP"]
 ONGOING_NAVIGATION = 0
 
 
+def prompt(chunkNumber, MaxChunkSize, locations, mic):
+	#TODO: get rid of magic number
+	idxMax = chunkNumber * 5
+	idxStart = idxMax - 5
+
+	if idxMax > len(locations):
+		idxStop = len(locations) - 1
+	else:
+		idxStop = idxMax - 1 
+
+	ctr = 1
+	strToSay = "Please say...."
+	while (idxStart <= idxStop):
+		strToSay += str(num2words(ctr))
+		strToSay += "...for...."
+		strToSay += locations[idxStart]
+		mic.say(strToSay)
+		ctr+=1
+		idxStart+=1
+		time.sleep(0.1)
+		strToSay = ""
+
+	if chunkNumber != MaxChunkSize:
+		mic.say("For more locations, say...more...")
+
+	if chunkNumber != 1:
+		mic.say("To go back to previous menu, please say...PREVIOUS...")
+
+	mic.say("To cancel, please say....CANCEL.....")
+
+
+
+def getLevels():
+	#to be implemented
+
+
+def getBuildings():
+	#to be implemented
+
+
+
 def getInput(mic):
 
 	def validateCommandMentioned(text, mic):
@@ -61,7 +102,7 @@ def getInput(mic):
 	valid = False
 	chunkNumber = 1
 
-	locations = getLocations()
+	locations = getBuildings()
 
 	#TODO:get rid of this magic number!!!
 	maxChunkSize = math.ceil(float(len(locations))/5)

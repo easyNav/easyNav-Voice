@@ -69,6 +69,21 @@ def getSUID(index):
 
 	return SUID
 
+def getCoord(index):
+	filename = "../static/CoordinateFile.txt"
+	CoordinateFile = open(filename, "r")
+	ctr = 0
+	startCoord = "" 
+
+	for line in CoordinateFile.readlines():
+		if ctr == index:
+			line = line.replace("\n", "")
+			startCoord = line
+
+		ctr+=1
+
+	return startCoord
+
 def getInput(mic):
 
 	def validateCommandMentioned(text, mic):
@@ -178,6 +193,7 @@ def handle(text, mic, profile, dispatcherClient):
 
 	cancel, startLocation, index = getInput(mic);
 	srcSUID = getSUID(index)
+	srcCoord = eval(getCoord(index))
 
 	print startLocation
 	if cancel:
@@ -199,6 +215,7 @@ def handle(text, mic, profile, dispatcherClient):
 			destSUID = getSUID(index)
 			print destSUID
 			#interprocess
+			dispatcherClient.send(9003, "starting", srcCoord)
 			dispatcherClient.send(9001, "newPath", {"from":srcSUID, "to": destSUID})
 
 #called by jasper client
@@ -206,5 +223,5 @@ def isValid(text):
     return bool(re.search(r'\bfind|change\b', text, re.IGNORECASE)) # searches for to and from
 
 
-
+eval(getCoord(1))
 

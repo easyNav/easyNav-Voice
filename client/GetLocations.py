@@ -62,22 +62,34 @@ class  Locations(object):
 				SUIDFile.write(line)
 				SUIDFile.write('\n')
 			SUIDFile.close()
+
+		def updateCoordTextFile(coordList):
+			CoordinateFile = open( "../static/CoordinateFile.txt", "w+")
+			for line in coordList:
+				print line
+				CoordinateFile.write(line)
+				CoordinateFile.write('\n')
+			CoordinateFile.close()
 			
 		logging.info("Starting to retrieve locations")
-		r = requests.get(Locations.HOST_ADDR + "node/summary")
+		r = requests.get(Locations.HOST_ADDR + "node")
 		print r.status_code
 
 		locationList = []
 		SUIDList = []
+		coordList=[]
+		#print r.json()
 
 		for location in r.json():
 			strName = str(location['name'])
 			SUID = str(location['SUID'])
+			loc = str(location['loc'])
 			locationList.append(strName.upper())
 			SUIDList.append(SUID)
+			coordList.append(loc)
 
-
-		#check space
+		#print locationList
+		#print coordList
 		testDigit = re.compile("\d+")
 
 		for k, location in enumerate(locationList):
@@ -128,6 +140,7 @@ class  Locations(object):
 
 		updateLocationsTextFile(locationList)
 		updateSUIDTextFile(SUIDList)
+		updateCoordTextFile(coordList)
 
 		return
 	

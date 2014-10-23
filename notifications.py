@@ -6,7 +6,6 @@ from client import speaker
 
 class Notifications(object):
 
-
 	def __init__(self):
 		self.speaker = speaker.newSpeaker()
 
