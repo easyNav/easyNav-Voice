@@ -1,6 +1,6 @@
 Voice
 =====
-
+This module uses the open source project, jasper, on the raspberry pi
 
 Installation
 ====
