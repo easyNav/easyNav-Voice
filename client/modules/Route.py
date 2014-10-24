@@ -223,5 +223,5 @@ def isValid(text):
     return bool(re.search(r'\bfind|change\b', text, re.IGNORECASE)) # searches for to and from
 
 
-eval(getCoord(1))
+#eval(getCoord(1))
 

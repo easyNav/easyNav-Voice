@@ -21,13 +21,13 @@ class testNavInstructions(object):
 
 
     def start(self):
-
-    	self.dispatcherClient.start()
-    	dispatcherClient.send(9001, "newPath", {"from":1, "to": 2})    	#lt15 to P2
+		self.dispatcherClient.start()
+		self.dispatcherClient.send(9001, "newPath", {"from":1, "to": 2})    	#lt15 to P2
 		
 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 		time.sleep(5)
+		print payload
 
 		#simulate orientation
 		ctr=0
@@ -38,17 +38,20 @@ class testNavInstructions(object):
 				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 				time.sleep(5)
+				print payload
 				break
 			else:
 				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 				time.sleep(5)
+				print payload
 
 
 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 		time.sleep(5)
 		ctr=0
+		print payload
         
         #simulate movement
 		for c in range(0,21):
@@ -58,6 +61,7 @@ class testNavInstructions(object):
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 			print r.json
 			time.sleep(5)
+			print payload
 
 			if ctr == 2100:
 				ctr+=52
@@ -66,6 +70,7 @@ class testNavInstructions(object):
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 				print r.json
 				time.sleep(5)
+				print payload
 				break
 
 		# payload = { "x": 1420, "y": 1260, "z": 0, "orientation": (270/180.0)*3.142 }
