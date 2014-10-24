@@ -10,11 +10,11 @@ class Notifications(object):
 		self.speaker = speaker.newSpeaker()
 
         #interprocess 
-        self.DISPATCHER_PORT = 9002
-        self.dispatcherClient = DispatcherClient(port=self.DISPATCHER_PORT)
+		self.DISPATCHER_PORT = 9002
+		self.dispatcherClient = DispatcherClient(port=self.DISPATCHER_PORT)
 
         ## Attach event listeners
-        self.attachEvents(self.speaker)
+		self.attachEvents(self.speaker)
 
 	def start(self):
 		self.dispatcherClient.start()
@@ -23,9 +23,9 @@ class Notifications(object):
 	def attachEvents(self, mic):
         ## clear all signals
 		smokesignal.clear()
-        text = ""
-        @smokesignal.on('say')
-        def onSay(args):
+		text = ""
+		@smokesignal.on('say')
+		def onSay(args):
 			print "Info from Nav"
 			infoFromNav = eval(args.get('payload'))
 			print infoFromNav
