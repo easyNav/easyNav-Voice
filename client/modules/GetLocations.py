@@ -19,8 +19,8 @@ import sys
 
 class  Locations(object):
 
-#HOST_ADDR = "http://192.249.57.162:1337/"
-	HOST_ADDR = "http://localhost:1337/"
+	HOST_ADDR = "http://192.249.57.162:1337/"
+	#HOST_ADDR = "http://localhost:1337/"
 
 	def __init__(self):
 		super(Locations, self).__init__()
@@ -73,6 +73,7 @@ class  Locations(object):
 			
 		logging.info("Starting to retrieve locations")
 		r = requests.get(Locations.HOST_ADDR + "node")
+
 		print r.status_code
 
 		locationList = []
