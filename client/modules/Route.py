@@ -192,13 +192,14 @@ def handle(text, mic, profile, dispatcherClient):
 	mic.say("Choose your start point from the list below")	
 
 	cancel, startLocation, index = getInput(mic);
-	srcSUID = getSUID(index)
-	srcCoord = eval(getCoord(index))
+
 
 	print startLocation
 	if cancel:
 		mic.say("Cancelling operation......")
 	else:
+		srcSUID = getSUID(index)
+		srcCoord = eval(getCoord(index))
 		strToSay =  startLocation + " found"
 		mic.say(strToSay)
 		time.sleep(0.2)
@@ -220,7 +221,7 @@ def handle(text, mic, profile, dispatcherClient):
 
 #called by jasper client
 def isValid(text):
-    return bool(re.search(r'\bfind|change\b', text, re.IGNORECASE)) # searches for to and from
+    return bool(re.search(r'\bfind\b', text, re.IGNORECASE)) # searches for to and from
 
 
 #eval(getCoord(1))

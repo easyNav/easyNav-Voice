@@ -157,7 +157,7 @@ ONGOING_NAVIGATION = 0
 def handle(text, mic, profile, dispatcherClient):
 	#make network request and get possible buildings and maps
 	mic.say("Updating the Map, please wait")
-	getLocation = GetLocations()
+	getLocation = GetLocations.Locations()
 	getLocation.getLoc()
 	mic.say("Done, map is updated")
 
