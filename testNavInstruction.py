@@ -35,7 +35,7 @@ class testNavInstructions(object):
 		payload = { "x": 0, "y": 2436, "z": 0, "orientation": (0/180.0)*3.142 }
 		print payload
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		time.sleep(1)
+		time.sleep(3)
 
 		#simulate orientation
 		ctr=0
@@ -45,13 +45,13 @@ class testNavInstructions(object):
 			if(ctr > 90):
 				payload = { "x": 0, "y": 2436, "z": 0, "orientation": (90/180.0)*3.142}
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(1)
+				time.sleep(3)
 				print payload
 				break
 			else:
 				payload = { "x": 0, "y": 2436, "z": 0, "orientation": (ctr/180.0)*3.142 }
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(1)
+				time.sleep(3)
 				print payload
 
 
@@ -76,7 +76,7 @@ class testNavInstructions(object):
 			print payload
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 			print r.json
-			time.sleep(1)
+			time.sleep(3)
 			print payload
 
 			if ctr == 2800:
@@ -85,7 +85,7 @@ class testNavInstructions(object):
 				print payload
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 				print r.json
-				time.sleep(1)
+				time.sleep(3)
 				print payload
 				break
 		ctr=90
@@ -95,13 +95,13 @@ class testNavInstructions(object):
 			if(ctr < 0):
 				payload = {"x": 2883, "y": 2436, "z": 0, "orientation": (0/180.0)*3.142}
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(1)
+				time.sleep(3)
 				print payload
 				break
 			else:
 				payload = {"x": 2883, "y": 2436, "z": 0, "orientation": (ctr/180.0)*3.142 }
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(1)
+				time.sleep(3)
 				print payload
 
 		ctr=2436
@@ -110,13 +110,13 @@ class testNavInstructions(object):
 
 			payload = {"x": 2883, "y": ctr, "z": 0, "orientation": (0/180.0)*3.142 }
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-			time.sleep(1)
+			time.sleep(3)
 			print payload
 
 			if(ctr == 2836):
 				payload = {"x": 2883, "y": 2924, "z": 0, "orientation": (0/180.0)*3.142}
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(1)
+				time.sleep(3)
 				print payload
 				break
 		
