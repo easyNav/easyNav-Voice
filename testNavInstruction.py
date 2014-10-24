@@ -32,27 +32,26 @@ class testNavInstructions(object):
 		# 	time.sleep(5)
 		# 	print payload
 		
-		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
+		payload = { "x": 0, "y": 2436, "z": 0, "orientation": (0/180.0)*3.142 }
 		print payload
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		time.sleep(5)
-
+		time.sleep(3)
 
 		#simulate orientation
 		ctr=0
-		for c in range(0,55):
-			ctr+=5
+		for c in range(0,8):
+			ctr+=10
 
-			if(ctr > 270):
-				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142}
+			if(ctr > 90):
+				payload = { "x": 0, "y": 2436, "z": 0, "orientation": (90/180.0)*3.142}
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(5)
+				time.sleep(3)
 				print payload
 				break
 			else:
-				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
+				payload = { "x": 0, "y": 2436, "z": 0, "orientation": (ctr/180.0)*3.142 }
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(5)
+				time.sleep(3)
 				print payload
 
 
@@ -71,22 +70,22 @@ class testNavInstructions(object):
 
         #simulate movement
 		ctr=0
-		for c in range(0,42):
-			ctr+=50
-			payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
+		for c in range(0,23):
+			ctr+=100
+			payload = { "x": ctr, "y": 2436, "z": 0, "orientation": (90/180.0)*3.142 }
 			print payload
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 			print r.json
-			time.sleep(5)
+			time.sleep(3)
 			print payload
 
 			if ctr == 2100:
 				ctr+=52
-				payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
+				payload = { "x": ctr, "y": 2436, "z": 0, "orientation": (90/180.0)*3.142 }
 				print payload
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 				print r.json
-				time.sleep(5)
+				time.sleep(3)
 				print payload
 				break
 
