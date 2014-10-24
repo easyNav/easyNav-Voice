@@ -29,25 +29,25 @@ class testNavInstructions(object):
 		time.sleep(5)
 		print payload
 
-		#simulate orientation
-		ctr=0
-		for c in range(0,55):
-			ctr+=5
+		# #simulate orientation
+		# ctr=0
+		# for c in range(0,55):
+		# 	ctr+=5
 
-			if(ctr > 270):
-				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
-				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(5)
-				print payload
-				break
-			else:
-				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
-				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(5)
-				print payload
+		# 	if(ctr > 270):
+		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
+		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# 		time.sleep(5)
+		# 		print payload
+		# 		break
+		# 	else:
+		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
+		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# 		time.sleep(5)
+		# 		print payload
 
 
-		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
+		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 		time.sleep(5)
 		ctr=0
@@ -56,7 +56,7 @@ class testNavInstructions(object):
         #simulate movement
 		for c in range(0,21):
 			ctr+=100
-			payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
+			payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
 			print payload
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 			print r.json
@@ -65,7 +65,7 @@ class testNavInstructions(object):
 
 			if ctr == 2100:
 				ctr+=52
-				payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
+				payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
 				print payload
 				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 				print r.json
