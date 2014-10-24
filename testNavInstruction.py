@@ -14,7 +14,7 @@ class testNavInstructions(object):
     def __init__(self):
         #interprocess
         self.apple=2
-        self.endpoint="http://localhost:1337/"
+        self.endpoint="http://192.249.57.162:1337/"
         #interprocess 
         self.DISPATCHER_PORT = 9002
         self.dispatcherClient = DispatcherClient(port=self.DISPATCHER_PORT)
