@@ -39,21 +39,21 @@ class testNavInstructions(object):
 
 
 		#simulate orientation
-		# ctr=0
-		# for c in range(0,55):
-		# 	ctr+=5
+		ctr=0
+		for c in range(0,55):
+			ctr+=5
 
-		# 	if(ctr > 270):
-		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142}
-		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		# 		time.sleep(5)
-		# 		print payload
-		# 		break
-		# 	else:
-		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
-		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		# 		time.sleep(5)
-		# 		print payload
+			if(ctr > 270):
+				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142}
+				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+				time.sleep(5)
+				print payload
+				break
+			else:
+				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
+				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+				time.sleep(5)
+				print payload
 
 
 		# payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
@@ -62,33 +62,33 @@ class testNavInstructions(object):
 		# ctr=0
 		# print payload
 
-		payload = { "x": 50, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
-		print payload
-		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		print r.json
-		time.sleep(5)
+		# payload = { "x": 50, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
+		# print payload
+		# r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# print r.json
+		# time.sleep(5)
 
 
         #simulate movement
-		ctr=360
-		for c in range(0,17):
-			ctr-=50
-			payload = { "x": 0, "y": 2580, "z": 0, "orientation": (ctr/180.0)*3.142 }
+		ctr=0
+		for c in range(0,42):
+			ctr+=50
+			payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
 			print payload
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 			print r.json
 			time.sleep(5)
 			print payload
 
-			# if ctr == 2100:
-			# 	ctr+=52
-			# 	payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
-			# 	print payload
-			# 	r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-			# 	print r.json
-			# 	time.sleep(5)
-			# 	print payload
-			# 	break
+			if ctr == 2100:
+				ctr+=52
+				payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (270/180.0)*3.142 }
+				print payload
+				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+				print r.json
+				time.sleep(5)
+				print payload
+				break
 
 		
 		# payload = { "x": 1420, "y": 1260, "z": 0, "orientation": (270/180.0)*3.142 }
