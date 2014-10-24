@@ -54,8 +54,8 @@ class testNavInstructions(object):
 		print payload
         
         #simulate movement
-		for c in range(0,21):
-			ctr+=100
+		for c in range(0,42):
+			ctr+=50
 			payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
 			print payload
 			r = requests.post(self.endpoint + "heartbeat/location", data=payload)
