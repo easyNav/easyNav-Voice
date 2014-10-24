@@ -38,28 +38,28 @@ class testNavInstructions(object):
 		print payload
 
 		#simulate orientation
-		ctr=0
-		for c in range(0,55):
-			ctr+=5
+		# ctr=0
+		# for c in range(0,55):
+		# 	ctr+=5
 
-			if(ctr > 270):
-				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
-				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(5)
-				print payload
-				break
-			else:
-				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
-				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-				time.sleep(5)
-				print payload
+		# 	if(ctr > 270):
+		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142}
+		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# 		time.sleep(5)
+		# 		print payload
+		# 		break
+		# 	else:
+		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
+		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# 		time.sleep(5)
+		# 		print payload
 
 
-		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
-		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		time.sleep(5)
-		ctr=0
-		print payload
+		# payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
+		# r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# time.sleep(5)
+		# ctr=0
+		# print payload
         
         #simulate movement
 		for c in range(0,42):
