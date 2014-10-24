@@ -62,12 +62,12 @@ class testNavInstructions(object):
 		# ctr=0
 		# print payload
 
-        payload = { "x": 50, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
+		payload = { "x": 50, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
 		print payload
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 		print r.json
 		time.sleep(5)
-		
+
 
         #simulate movement
 		ctr=360
