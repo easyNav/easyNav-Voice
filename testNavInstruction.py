@@ -62,6 +62,7 @@ class testNavInstructions(object):
 		# print payload
         
         #simulate movement
+        ctr=0
 		for c in range(0,42):
 			ctr+=50
 			payload = { "x": ctr, "y": 2580, "z": 0, "orientation": (0/180.0)*3.142 }
