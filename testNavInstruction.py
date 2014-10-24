@@ -23,28 +23,36 @@ class testNavInstructions(object):
     def start(self):
 		self.dispatcherClient.start()
 		self.dispatcherClient.send(9001, "newPath", {"from":1, "to": 2})    	#lt15 to P2
+
+		# ctr=90
+		# for c in range(0,17)
+		# 	ctr-=5
+		# 	payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142}
+		# 	r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+		# 	time.sleep(5)
+		# 	print payload
 		
 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
 		time.sleep(5)
 		print payload
 
-		# #simulate orientation
-		# ctr=0
-		# for c in range(0,55):
-		# 	ctr+=5
+		#simulate orientation
+		ctr=0
+		for c in range(0,55):
+			ctr+=5
 
-		# 	if(ctr > 270):
-		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
-		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		# 		time.sleep(5)
-		# 		print payload
-		# 		break
-		# 	else:
-		# 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
-		# 		r = requests.post(self.endpoint + "heartbeat/location", data=payload)
-		# 		time.sleep(5)
-		# 		print payload
+			if(ctr > 270):
+				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (270/180.0)*3.142 }
+				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+				time.sleep(5)
+				print payload
+				break
+			else:
+				payload = { "x": 0, "y": 2558, "z": 0, "orientation": (ctr/180.0)*3.142 }
+				r = requests.post(self.endpoint + "heartbeat/location", data=payload)
+				time.sleep(5)
+				print payload
 
 
 		payload = { "x": 0, "y": 2558, "z": 0, "orientation": (0/180.0)*3.142 }
